@@ -1,0 +1,119 @@
+order_id,imdsoc_status,imdsoc_site,imdsoc_service,imdsoc_expected_cost,incumbent_site,incumbent_service,incumbent_expected_cost,agree_site,explanation
+D000-0000,review,HOU,overnight,357.58296537838675,OKC,ground,6128.490746744342,False,"Site HOU: $1,484.62 lower expected cost per order than site OKC, of which $1,733.78 is lower inventory-age"
+D000-0001,review,OKC,ground,31.50763721682056,LIT,ground,22.092496388258166,False,Site OKC: selected despite $11.12 higher stand-alone cost than site LIT because shared inventory/capacity or consolidation lowers network cost
+D000-0002,review,OKC,ground,31.50763721682056,DAL,ground,62.65860065090726,False,"Site OKC: $6.90 lower expected cost per order than site DAL, of which $5.00 is lower inventory-age"
+D000-0003,assigned,OKC,ground,18.617458183851213,OKC,ground,20.01638287963329,True,"Site OKC: $4.90 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0004,review,OKC,ground,28.91476377517231,DAL,ground,98.89689545739989,False,"Site OKC: $67.96 lower expected cost per order than site DAL, of which $72.00 is lower inventory-age"
+D000-0005,review,AUS,ground,38.578770737344755,AUS,ground,38.578770737344755,True,"Site AUS: $11.28 lower expected cost per order than site DAL, of which $10.36 is lower excursion risk"
+D000-0006,assigned,DAL,ground,19.01432352729362,DAL,ground,29.718073414384087,True,"Site DAL: $4.89 lower expected cost per order than site SAT, of which $4.00 is lower transfer"
+D000-0007,assigned,DAL,ground,19.01432352729362,DAL,ground,21.500889226472914,True,"Site DAL: $4.89 lower expected cost per order than site SAT, of which $4.00 is lower transfer"
+D000-0008,escalated,,,,DEN,overnight,289.7754683817857,False,eligible plans exist but shared inventory or site capacity is exhausted in this window
+D000-0009,review,AUS,same_day,118.73929497193633,DAL,overnight,161.17405315499525,False,Site AUS: selected despite $13.80 higher stand-alone cost than site DEN because shared inventory/capacity or consolidation lowers network cost
+D000-0010,review,HOU,overnight,627.8146722291467,HOU,ground,2226.5865668741285,True,"Site HOU: $2,287.07 lower expected cost per order than site OKC, of which $2,600.68 is lower inventory-age"
+D000-0011,review,LIT,overnight,120.40044549421764,HOU,overnight,1341.8571692057665,False,"Site LIT: $444.53 lower expected cost per order than site DEN, of which $440.00 is lower inventory-age"
+D000-0012,review,LIT,overnight,120.40044549421764,AUS,ground,22.866969207652648,False,Site LIT: selected despite $99.47 higher stand-alone cost than site AUS because shared inventory/capacity or consolidation lowers network cost
+D000-0013,assigned,DEN,same_day,967.8838196522067,DEN,overnight,1033.0884910537106,True,"Site DEN: $52.58 lower expected cost per order than site HOU, of which $16.15 is lower excursion risk"
+D000-0014,assigned,SAT,overnight,34.70278649781403,SAT,ground,156.75524224492298,True,"Site SAT: $2.21 lower expected cost per order than site OKC, of which $4.00 is lower transfer"
+D000-0015,assigned,SAT,overnight,34.70278649781403,SAT,ground,24.573057083947344,True,Site SAT: selected despite $9.56 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0016,review,LIT,overnight,579.8229015544911,SAT,overnight,723.002749874462,False,Site LIT: selected despite $277.06 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0017,assigned,DEN,ground,272.68094755630256,DEN,overnight,557.5001709185428,True,Site DEN: selected despite $61.47 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0018,assigned,DEN,ground,272.68094755630256,DEN,overnight,80.32890522729542,True,Site DEN: selected despite $201.74 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0019,review,OKC,ground,32.486702075386425,DEN,ground,102.47347771646763,False,"Site OKC: $44.78 lower expected cost per order than site DEN, of which $36.00 is lower inventory-age"
+D000-0020,review,DAL,ground,24.206299735735065,AUS,ground,27.13065802341185,False,"Site DAL: $0.01 lower expected cost per order than site OKC, of which $0.65 is lower shipping"
+D000-0021,assigned,OKC,ground,15.48769408059899,OKC,ground,20.032695247652473,True,"Site OKC: $8.03 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0022,assigned,OKC,ground,15.48769408059899,OKC,overnight,43.884888306123045,True,"Site OKC: $14.21 lower expected cost per order than site DAL, of which $10.74 is lower shipping"
+D000-0023,review,OKC,ground,30.437091027224824,DAL,ground,100.21907739645276,False,"Site OKC: $68.39 lower expected cost per order than site DAL, of which $72.00 is lower inventory-age"
+D000-0024,escalated,,,,,,,False,"no eligible site; ABQ: LICENSURE: not licensed to ship into AR (no resident/nonresident license); PAYER_NETWORK: not in payer/PBM network PBM-B; LIMITED_DISTRIBUTION: not in manufacturer limited-distribution network for Frozen specialty product; INVENTORY: insufficient valid inventory (0 < 1 units non-expired, non-recalled, unreserved with >= 30 days dating); PACKAGING: no qualified packaging on site for frozen"
+D000-0025,review,OKC,ground,23.679379355609317,OKC,ground,36.77372543854992,True,"Site OKC: $36.45 lower expected cost per order than site DAL, of which $36.00 is lower inventory-age"
+D000-0026,review,OKC,ground,23.679379355609317,AUS,ground,29.579901906837865,False,"Site OKC: $3.49 lower expected cost per order than site AUS, of which $2.94 is lower shipping"
+D000-0027,review,OKC,overnight,42.29850157443458,AUS,ground,64.98122500557751,False,"Site OKC: $5.83 lower expected cost per order than site AUS, of which $5.00 is lower inventory-age"
+D000-0028,review,OKC,overnight,42.29850157443458,HOU,ground,82.22691261602363,False,"Site OKC: $5.83 lower expected cost per order than site AUS, of which $5.00 is lower inventory-age"
+D000-0029,escalated,,,,HOU,overnight,693.1994616267763,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (85 plans rejected)
+D000-0030,assigned,SAT,ground,24.057652416510432,SAT,ground,37.38488409602664,True,"Site SAT: $2.77 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0031,assigned,SAT,ground,24.057652416510432,SAT,ground,37.41779123762291,True,"Site SAT: $2.77 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0032,review,OKC,overnight,65.08548110997596,OKC,ground,107.85283531509556,True,"Site OKC: $16.85 lower expected cost per order than site HOU, of which $10.00 is lower inventory-age"
+D000-0033,assigned,LIT,ground,28.349071477897947,LIT,ground,30.026380055117947,True,"Site LIT: $5.01 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0034,assigned,OKC,same_day,5679.206622407221,OKC,ground,6002.339314091963,True,"COURIER/same_day/CRT-INS: $289.05 lower expected cost per order than CAR-A/overnight/CRT-INS, of which $264.09 is lower excursion risk"
+D000-0035,escalated,,,,SAT,overnight,72.96826516010512,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (50 plans rejected)
+D000-0036,assigned,SAT,ground,27.165924156945927,SAT,ground,29.573401866118594,True,"Site SAT: $1.92 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0037,review,OKC,ground,40.12704984855325,OKC,ground,40.12704984855325,True,"Site OKC: $3.87 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0038,assigned,DEN,ground,26.49074620393713,DEN,ground,28.627073365153574,True,"Site DEN: $4.42 lower expected cost per order than site OKC, of which $4.00 is lower transfer"
+D000-0039,assigned,AUS,ground,21.477519714669306,AUS,ground,23.611794554777067,True,"Site AUS: $1.69 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0040,escalated,,,,SAT,overnight,69.23667957106791,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (95 plans rejected)
+D000-0041,escalated,,,,SAT,overnight,738.3200357506641,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (155 plans rejected)
+D000-0042,review,DEN,overnight,31.60223760860339,DEN,ground,183.85073327517176,True,"Site DEN: $6.52 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0043,review,DEN,overnight,31.60223760860339,DEN,ground,35.88876572069565,True,CAR-B/overnight/CRT-INS: selected despite $8.70 higher stand-alone cost than CAR-B/ground/AMB-STD because shared inventory/capacity or consolidation lowers network cost
+D000-0044,review,DEN,overnight,31.60223760860339,DEN,ground,25.071526148978535,True,Site DEN: selected despite $6.50 higher stand-alone cost than site DAL because shared inventory/capacity or consolidation lowers network cost
+D000-0045,review,DAL,ground,23.8420886498064,SAT,ground,27.172930124444804,False,"Site DAL: $0.16 lower expected cost per order than site OKC, of which $0.74 is lower shipping"
+D000-0046,assigned,LIT,same_day,101.78178833273667,LIT,overnight,256.93996994014196,True,"Site LIT: $947.78 lower expected cost per order than site HOU, of which $880.00 is lower inventory-age"
+D000-0047,review,HOU,overnight,263.5857507134673,HOU,overnight,335.8897607369841,True,Site HOU: only feasible plan
+D000-0048,review,DAL,ground,31.368605183745363,DAL,ground,33.387693198021765,True,"Site DAL: $0.31 lower expected cost per order than site OKC, of which $0.74 is lower shipping"
+D000-0049,assigned,DAL,overnight,26.772373968221945,DAL,ground,21.706586903753475,True,Site DAL: selected despite $2.76 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0050,assigned,DAL,overnight,26.772373968221945,DAL,overnight,49.65757494709042,True,"Site DAL: $4.58 lower expected cost per order than site OKC, of which $4.00 is lower transfer"
+D000-0051,review,AUS,ground,39.19366561757165,AUS,ground,22.465228966034633,True,Site AUS: selected despite $15.18 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0052,review,AUS,ground,39.19366561757165,AUS,ground,63.782538022968446,True,"Site AUS: $2.30 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0053,review,SAT,same_day,67.62556329529592,AUS,ground,22.98827592060056,False,Site SAT: selected despite $46.39 higher stand-alone cost than site AUS because shared inventory/capacity or consolidation lowers network cost
+D000-0054,review,SAT,same_day,67.62556329529592,AUS,overnight,159.59724099111264,False,Site SAT: selected despite $7.52 higher stand-alone cost than site DEN because shared inventory/capacity or consolidation lowers network cost
+D000-0055,review,HOU,same_day,535.0888212808954,DAL,overnight,696.9003364274066,False,Site HOU: selected despite $199.90 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0056,review,OKC,ground,30.375476845804478,DAL,ground,99.87845736665808,False,"Site OKC: $45.99 lower expected cost per order than site DAL, of which $36.94 is lower inventory-age"
+D000-0057,assigned,DAL,overnight,54.92578408609797,DAL,overnight,60.05380850869468,True,Site DAL: selected despite $7.94 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0058,assigned,LIT,ground,29.58884978489954,LIT,ground,31.38745749759116,True,"Site LIT: $1.99 lower expected cost per order than site OKC, of which $4.00 is lower transfer"
+D000-0059,assigned,OKC,same_day,5512.980114868047,OKC,ground,7152.194710891955,True,"COURIER/same_day/CRT-INS: $331.14 lower expected cost per order than CAR-A/overnight/CRT-INS, of which $324.90 is lower excursion risk"
+D000-0060,review,OKC,ground,48.5899508990142,DAL,ground,60.61306708811833,False,"Site OKC: $12.02 lower expected cost per order than site DAL, of which $10.00 is lower inventory-age"
+D000-0061,assigned,LIT,ground,30.256484281532163,LIT,ground,31.93523761600285,True,"Site LIT: $12.26 lower expected cost per order than site OKC, of which $6.75 is lower excursion risk"
+D000-0062,review,HOU,overnight,339.1789257422441,SAT,overnight,168.64623614024217,False,Site HOU: selected despite $187.60 higher stand-alone cost than site DAL because shared inventory/capacity or consolidation lowers network cost
+D000-0063,review,HOU,overnight,339.1789257422441,SAT,overnight,697.0401938400456,False,"Site HOU: $6.90 lower expected cost per order than site DAL, of which $11.49 is lower excursion risk"
+D000-0064,assigned,SAT,overnight,55.63705637965684,SAT,ground,156.70556270232973,True,"Site SAT: $4.53 lower expected cost per order than site AUS, of which $4.00 is lower transfer"
+D000-0065,review,OKC,overnight,281.6285568651183,LIT,overnight,600.6441513347447,False,"Site OKC: $2.13 lower expected cost per order than site LIT, of which $2.95 is lower labor"
+D000-0066,review,OKC,overnight,281.6285568651183,LIT,ground,23.285921818889058,False,Site OKC: selected despite $260.14 higher stand-alone cost than site LIT because shared inventory/capacity or consolidation lowers network cost
+D000-0067,escalated,,,,SAT,overnight,208.81423124702525,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (85 plans rejected)
+D000-0068,assigned,OKC,same_day,23.5492120369188,OKC,ground,45.297714101479436,True,"Site OKC: $9.93 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0069,assigned,OKC,same_day,23.5492120369188,OKC,overnight,44.52982162514582,True,"Site OKC: $9.93 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0070,assigned,LIT,ground,25.329057021648975,LIT,ground,33.33794861688141,True,"Site LIT: $12.34 lower expected cost per order than site DAL, of which $11.33 is lower shipping"
+D000-0071,assigned,LIT,ground,25.329057021648975,LIT,ground,29.85293491379227,True,"Site LIT: $9.28 lower expected cost per order than site DAL, of which $7.48 is lower shipping"
+D000-0072,review,HOU,overnight,265.33890793874895,HOU,overnight,315.5105999956701,True,Site HOU: only feasible plan
+D000-0073,assigned,SAT,ground,24.664651725254267,SAT,ground,26.97583931190346,True,"Site SAT: $5.07 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0074,escalated,,,,SAT,overnight,211.25430600664956,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (155 plans rejected)
+D000-0075,review,OKC,overnight,129.94013018024896,LIT,overnight,138.89101698591733,False,Site OKC: selected despite $0.37 higher stand-alone cost than site LIT because shared inventory/capacity or consolidation lowers network cost
+D000-0076,assigned,DAL,overnight,133.99357757951196,DAL,overnight,138.88919049065495,True,Site DAL: selected despite $0.76 higher stand-alone cost than site LIT because shared inventory/capacity or consolidation lowers network cost
+D000-0077,review,DAL,overnight,139.70748903295572,OKC,overnight,164.9607980404253,False,Site DAL: selected despite $33.92 higher stand-alone cost than site DEN because shared inventory/capacity or consolidation lowers network cost
+D000-0078,assigned,SAT,ground,20.98862068612763,SAT,ground,32.30501527512643,True,"Site SAT: $2.22 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0079,assigned,SAT,ground,20.98862068612763,SAT,ground,23.006327557626957,True,"Site SAT: $2.22 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0080,review,LIT,ground,36.697521883202995,DAL,ground,39.55117920823571,False,"Site LIT: $0.60 lower expected cost per order than site DAL, of which $2.53 is lower inventory-age"
+D000-0081,escalated,,,,DAL,overnight,72.75564493421136,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (45 plans rejected)
+D000-0082,review,OKC,overnight,5457.201681274104,OKC,ground,8878.260297760891,True,"CAR-A/overnight/CRT-INS: $18.58 lower expected cost per order than CAR-B/overnight/CRT-INS, of which $13.70 is lower failed-delivery risk"
+D000-0083,escalated,,,,LIT,overnight,247.77320661864147,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (15 plans rejected)
+D000-0084,escalated,,,,,,,False,"no eligible site; ABQ: LICENSURE: not licensed to ship into LA (no resident/nonresident license); PAYER_NETWORK: not in payer/PBM network PBM-B; LIMITED_DISTRIBUTION: not in manufacturer limited-distribution network for Frozen specialty product; INVENTORY: insufficient valid inventory (0 < 1 units non-expired, non-recalled, unreserved with >= 30 days dating); PACKAGING: no qualified packaging on site for frozen"
+D000-0085,review,OKC,overnight,39.1997628176111,DEN,ground,25.23052556732383,False,Site OKC: selected despite $16.02 higher stand-alone cost than site DEN because shared inventory/capacity or consolidation lowers network cost
+D000-0086,review,OKC,overnight,39.1997628176111,AUS,ground,230.77150310173863,False,"Site OKC: $8.95 lower expected cost per order than site AUS, of which $5.00 is lower inventory-age"
+D000-0087,assigned,SAT,ground,22.773817051314566,SAT,ground,27.469597562995283,True,"Site SAT: $3.60 lower expected cost per order than site OKC, of which $4.00 is lower transfer"
+D000-0088,assigned,SAT,ground,22.773817051314566,SAT,ground,37.17496414522493,True,"Site SAT: $3.60 lower expected cost per order than site OKC, of which $4.00 is lower transfer"
+D000-0089,review,LIT,overnight,220.73993816665015,HOU,overnight,1405.3458039070485,False,"Site LIT: $854.35 lower expected cost per order than site HOU, of which $880.00 is lower inventory-age"
+D000-0090,review,DEN,overnight,156.61603493667522,DEN,overnight,279.7216631684954,True,"Site DEN: $110.32 lower expected cost per order than site HOU, of which $120.00 is lower inventory-age"
+D000-0091,review,HOU,overnight,674.2307889847146,HOU,ground,3590.734611128148,True,"Site HOU: $5,147.37 lower expected cost per order than site OKC, of which $5,200.00 is lower inventory-age"
+D000-0092,review,DAL,ground,32.300292095923446,SAT,ground,34.76015722534309,False,"Site DAL: $0.18 lower expected cost per order than site SAT, of which $1.76 is lower labor"
+D000-0093,review,DAL,ground,41.938477289497044,DAL,ground,45.527296196287175,True,"Site DAL: $7.47 lower expected cost per order than site OKC, of which $7.89 is lower excursion risk"
+D000-0094,review,SAT,ground,38.61061761235779,SAT,ground,38.61061761235779,True,"Site SAT: $10.59 lower expected cost per order than site AUS, of which $8.12 is lower excursion risk"
+D000-0095,review,SAT,same_day,123.50207828483563,HOU,overnight,162.83496504893822,False,Site SAT: selected despite $19.76 higher stand-alone cost than site DEN because shared inventory/capacity or consolidation lowers network cost
+D000-0096,review,DEN,overnight,51.942086107629486,ABQ,overnight,150.68366949016703,False,"Site DEN: $13.66 lower expected cost per order than site ABQ, of which $23.96 is lower inventory-age"
+D000-0097,review,DEN,overnight,51.942086107629486,ABQ,ground,23.526976027122203,False,Site DEN: selected despite $29.86 higher stand-alone cost than site ABQ because shared inventory/capacity or consolidation lowers network cost
+D000-0098,review,HOU,overnight,201.1697284317116,OKC,ground,8407.975662712135,False,"Site HOU: $2,503.84 lower expected cost per order than site OKC, of which $2,600.68 is lower inventory-age"
+D000-0099,assigned,DEN,overnight,188.08109290735214,DEN,overnight,140.9713818832596,True,Site DEN: selected despite $116.37 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0100,assigned,DEN,overnight,188.08109290735214,DEN,ground,24.27536374680133,True,Site DEN: selected despite $163.76 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0101,assigned,DEN,overnight,188.08109290735214,DEN,overnight,771.1400457503962,True,"Site DEN: $16.73 lower expected cost per order than site OKC, of which $16.41 is lower inventory-age"
+D000-0102,assigned,OKC,ground,21.282633072395218,OKC,ground,23.078752170564652,True,"Site OKC: $3.89 lower expected cost per order than site DAL, of which $4.00 is lower transfer"
+D000-0103,review,HOU,ground,60.656099700534256,HOU,ground,61.595490434748896,True,"CAR-B/ground/CRT-INS: $0.94 lower expected cost per order than CAR-A/ground/CRT-INS, of which $1.69 is lower shipping"
+D000-0104,review,HOU,overnight,549.9368103538945,HOU,ground,2126.610235953772,True,"Site HOU: $5,251.37 lower expected cost per order than site OKC, of which $5,200.00 is lower inventory-age"
+D000-0105,assigned,DAL,ground,28.629048299738674,DAL,ground,30.729009876851123,True,"Site DAL: $4.26 lower expected cost per order than site AUS, of which $4.00 is lower transfer"
+D000-0106,escalated,,,,DEN,overnight,78.0843423074461,False,eligible sites exist but no plan meets the deadline / packaging hold-time chance constraint (10 plans rejected)
+D000-0107,review,OKC,ground,36.54537776035932,DEN,ground,108.74753182934508,False,"Site OKC: $70.40 lower expected cost per order than site DEN, of which $72.00 is lower inventory-age"
+D000-0108,assigned,DEN,ground,526.6652268739589,DEN,overnight,558.8524140250073,True,Site DEN: selected despite $247.25 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0109,assigned,DEN,ground,25.131918223709793,DEN,overnight,48.87138385408001,True,"Site DEN: $23.87 lower expected cost per order than site OKC, of which $24.04 is lower shipping"
+D000-0110,assigned,DAL,ground,24.512232878923193,DAL,ground,26.516014900208376,True,"Site DAL: $6.13 lower expected cost per order than site AUS, of which $4.00 is lower transfer"
+D000-0111,review,DEN,overnight,83.10374185313258,OKC,ground,27.414661901446312,False,Site DEN: selected despite $57.81 higher stand-alone cost than site OKC because shared inventory/capacity or consolidation lowers network cost
+D000-0112,review,DEN,overnight,83.10374185313258,DEN,overnight,161.3444490240502,True,"CAR-A/overnight/FRZ-DRY-96: $13.80 lower expected cost per order than CAR-A/overnight/FRZ-DRY-48, of which $23.65 is lower excursion risk"
+D000-0113,review,OKC,ground,29.20160537717081,AUS,ground,32.97587495277395,False,"Site OKC: $0.15 lower expected cost per order than site DAL, of which $0.44 is lower labor"
+D000-0114,review,LIT,overnight,158.26456307868335,LIT,overnight,492.21457643807435,True,"Site LIT: $899.31 lower expected cost per order than site HOU, of which $880.00 is lower inventory-age"
+D000-0115,assigned,OKC,overnight,307.36279007389544,OKC,overnight,585.4150567491059,True,Site OKC: selected despite $2.32 higher stand-alone cost than site LIT because shared inventory/capacity or consolidation lowers network cost
+D000-0116,assigned,OKC,overnight,307.36279007389544,OKC,overnight,136.20401209866353,True,Site OKC: selected despite $174.11 higher stand-alone cost than site LIT because shared inventory/capacity or consolidation lowers network cost
+D000-0117,assigned,OKC,ground,30.92562791467689,OKC,ground,31.418349172802834,True,"Site OKC: $1.21 lower expected cost per order than site DEN, of which $4.00 is lower transfer"

@@ -1,0 +1,38 @@
+[
+  {
+    "hypothesis": "H1",
+    "comparison": "imdsoc vs fixed_site",
+    "evidence": "cost diff $-169.46 [-241.27, -103.28]; on-time diff -0.004 [-0.011, +0.003]",
+    "supported": false
+  },
+  {
+    "hypothesis": "H1",
+    "comparison": "imdsoc vs nearest_eligible",
+    "evidence": "cost diff $-176.33 [-251.11, -110.81]; on-time diff +0.001 [-0.006, +0.008]",
+    "supported": true
+  },
+  {
+    "hypothesis": "H2",
+    "comparison": "chance-constrained vs point-estimate plans",
+    "evidence": "excursion rate 0.0189 vs 0.0203; paired diff -0.0014 [-0.0095, +0.0081]",
+    "supported": false
+  },
+  {
+    "hypothesis": "H3",
+    "comparison": "consolidation vs none",
+    "evidence": "shipping+packaging per Rx $24.26 vs $27.02; paired diff -2.77 [-3.31, -2.25]",
+    "supported": true
+  },
+  {
+    "hypothesis": "H4",
+    "comparison": "cross-site vs fixed-site",
+    "evidence": "write-off $1,090 vs $2,597; backlog variance 1.01 vs 3.16; utilization CV 0.48 vs 0.49",
+    "supported": true
+  },
+  {
+    "hypothesis": "H5",
+    "comparison": "explanations vs none (pharmacist override rate)",
+    "evidence": "requires a user study with pharmacists under institutional review; not testable in simulation",
+    "supported": null
+  }
+]
